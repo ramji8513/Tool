@@ -241,50 +241,65 @@
                 <p>Convert PDF to DOC/DOCX</p>
             </div>
             
-            <!-- Edit & Organize -->
-            <div class="tool-card" data-tool="merge-pdf">
-                <i>🧩</i>
-                <h3>Merge PDF</h3>
-                <p>Combine multiple PDFs into one</p>
-            </div>
-            <div class="tool-card" data-tool="split-pdf">
-                <i>✂️</i>
-                <h3>Split PDF</h3>
-                <p>Split PDF into multiple files</p>
-            </div>
-            <div class="tool-card" data-tool="remove-pages">
-                <i>🗑️</i>
-                <h3>Remove Pages</h3>
-                <p>Delete pages from PDF</p>
-            </div>
-            <div class="tool-card" data-tool="extract-pages">
-                <i>📑</i>
-                <h3>Extract Pages</h3>
-                <p>Extract specific pages</p>
-            </div>
-            
-            <!-- Optimize & Secure -->
-            <div class="tool-card" data-tool="compress-pdf">
-                <i>🗜️</i>
-                <h3>Compress PDF</h3>
-                <p>Reduce PDF file size</p>
-            </div>
-            <div class="tool-card" data-tool="protect-pdf">
-                <i>🔒</i>
-                <h3>Protect PDF</h3>
-                <p>Add password protection</p>
-            </div>
-            <div class="tool-card" data-tool="unlock-pdf">
-                <i>🔓</i>
-                <h3>Unlock PDF</h3>
-                <p>Remove password protection</p>
-            </div>
-            <div class="tool-card" data-tool="sign-pdf">
-                <i>✍️</i>
-                <h3>Sign PDF</h3>
-                <p>Add digital signature</p>
-            </div>
-        </div>
+           <!-- Edit & Organize -->
+<div class="tool-card" data-tool="merge-pdf">
+    <a href="/tools/merge-pdf" style="text-decoration: none; color: inherit;">
+        <i>🧩</i>
+        <h3>Merge PDF</h3>
+        <p>Combine multiple PDFs into one</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="split-pdf">
+    <a href="/tools/split-pdf" style="text-decoration: none; color: inherit;">
+        <i>✂️</i>
+        <h3>Split PDF</h3>
+        <p>Split PDF into multiple files</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="remove-pages">
+    <a href="/tools/remove-pages" style="text-decoration: none; color: inherit;">
+        <i>🗑️</i>
+        <h3>Remove Pages</h3>
+        <p>Delete pages from PDF</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="extract-pages">
+    <a href="/tools/extract-pages" style="text-decoration: none; color: inherit;">
+        <i>📑</i>
+        <h3>Extract Pages</h3>
+        <p>Extract specific pages</p>
+    </a>
+</div>
+
+<!-- Optimize & Secure -->
+<div class="tool-card" data-tool="compress-pdf">
+    <a href="/tools/compress-pdf" style="text-decoration: none; color: inherit;">
+        <i>🗜️</i>
+        <h3>Compress PDF</h3>
+        <p>Reduce PDF file size</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="protect-pdf">
+    <a href="/tools/protect-pdf" style="text-decoration: none; color: inherit;">
+        <i>🔒</i>
+        <h3>Protect PDF</h3>
+        <p>Add password protection</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="unlock-pdf">
+    <a href="/tools/unlock-pdf" style="text-decoration: none; color: inherit;">
+        <i>🔓</i>
+        <h3>Unlock PDF</h3>
+        <p>Remove password protection</p>
+    </a>
+</div>
+<div class="tool-card" data-tool="sign-pdf">
+    <a href="/tools/sign-pdf" style="text-decoration: none; color: inherit;">
+        <i>✍️</i>
+        <h3>Sign PDF</h3>
+        <p>Add digital signature</p>
+    </a>
+</div>
         
         <!-- Tool Interface -->
         <div class="tool-interface" id="toolInterface">
